@@ -1,0 +1,16 @@
+.para{
+    text-indent: 20px;
+    margin-bottom: 40px;
+}
+p{
+    font-size: 21px;
+}
+.main_div{
+    padding: 16px;
+    font-weight: 400;
+}
+a{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(67, 162, 231);
+}
