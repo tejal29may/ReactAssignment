@@ -1,0 +1,51 @@
+*{
+    font-family: sans-serif;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17 24 39);
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu li{
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(59 130 246);
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.right button{
+    padding: 13px;
+    border-radius: 6px;
+    background-color: rgb(37, 99, 235);
+    color: white;
+    font-weight: 700;
+    border: none;
+}

@@ -1,0 +1,10 @@
+.cardimg img{
+border-radius: 50%;
+}
+.cardimg{
+    margin-top: 2%;
+}
+.para{
+    line-height: 1.62;
+    color: rgb(55 65 81);
+}

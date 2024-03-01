@@ -1,0 +1,95 @@
+.main_section{
+    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 100%;
+
+}
+.textArea{
+    width: 35%;
+    height: 70%;
+    
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 10%;
+    padding-top: 6%;
+}
+.main_section{
+    text-align: center;
+}
+.textArea h1{
+    font-weight: 800;
+    font-size: 45px;
+}
+.textArea p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.buttons{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.buttons button{
+    padding: 15px;
+    width: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.secondSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin-top: 60px;
+    margin-bottom: 5%;
+}
+.secondSection .left img{
+    height: 100%;
+    width: 700px;
+  
+}
+.secondSection .left{
+    width: 700px;
+    height: 590px;
+   
+}
+.secondSection .right{
+height: 710px;
+width: 100%;
+background-color: rgb(243 244 246);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.secondSection .right h1{
+    font-size: 35px;
+    margin-bottom: 4%;
+}
+.secondSection .right p{
+    font-size: 18px;
+    line-height: 1.3;
+    color: rgb(75 85 99);
+}
+.secondSection .right div{
+    width: 550px;
+}
+.secondSection .right button{
+    margin-top: 4%;
+    width: 150px;
+}
+.touchButton:hover{
+   background-color: white;
+   /* border: 2px solid #4f46e1; */
+}
+.secondSection .right button:hover{
+    background-color: white;
+}
