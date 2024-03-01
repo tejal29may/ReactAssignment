@@ -1,0 +1,30 @@
+
+.list{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.list li{
+    width: 300px;
+    /* border: 1px solid green; */
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(157, 154, 154);
+    color: white;
+}
+.list li:hover{
+    background-color: rgb(177, 10, 82);
+}
+.header{
+    width: 90%;
+    
+    margin: 1px auto;
+    margin-right: 5%;
+}
+.header h1,p{
+    margin-left: 3.2%;
+}
+.header p{
+    letter-spacing: 3px;
+}
