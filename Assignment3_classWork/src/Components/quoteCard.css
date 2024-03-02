@@ -1,0 +1,30 @@
+.quotes{
+    width: 80%;
+    
+    border: 3px solid black;
+    margin: 3% auto;
+    padding: 2rem;
+    background-color: rgb(31 41 55);
+    border-radius: .5rem;
+    
+}
+.quotescardData{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    color: white;
+  
+
+}
+.quoteTitle{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    
+}
+.author{
+    font-size: 1.125rem;
+    color: rgb(156 163 175);
+    line-height: 1.75rem;
+}
