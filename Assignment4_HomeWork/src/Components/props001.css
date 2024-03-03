@@ -1,0 +1,10 @@
+.colorcards{
+    width: 90%;
+    height: 100%;
+    
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
