@@ -1,5 +1,6 @@
 
 ##Hosted Link For Home page : https://react-assignment-vyru.vercel.app/
+<br>
 ##Hosted Link for quotes Page : http://localhost:5173/quotes
 
 ##Overview
@@ -14,12 +15,12 @@
 
 Now, let's see how you've used these concepts to create your pages:
 
-1. Home Page You've created a Home Page component using React. This component likely contains the main content that you want to display when users first visit your website. You may have used HTML elements like `<div>`, `<h1>`, `<p>`, etc., along with any necessary CSS for styling.
+1. Home Page I've created a Home Page component using React. This component likely contains the main content that you want to display when users first visit your website. I  have used HTML elements like `<div>`, `<h1>`, `<p>`, etc., along with any necessary CSS for styling.
 
-2. Quotes Page Similarly, you've created a Quotes Page component using React. This component probably displays a collection of quotes,by using the map over the array which conatins the collection of quotes. Like the Home Page, you've likely used HTML elements and CSS to structure and style the page.
+2. Quotes Page Similarly, I've created a Quotes Page component using React. This component probably displays a collection of quotes,by using the map over the array which conatins the collection of quotes. Like the Home Page, you've likely used HTML elements and CSS to structure and style the page.
 
-3. Routes You've set up routes using React Router to navigate between these pages. This involves defining routes for each page/component and mapping them to specific URLs. For example, you might have a route for the Home Page ("/") and another for the Quotes Page ("/quotes"). When a user navigates to these URLs, the corresponding components are rendered.
+3. Routes I've set up routes using React Router to navigate between these pages. This involves defining routes for each page/component and mapping them to specific URLs. For example, you might have a route for the Home Page ("/") and another for the Quotes Page ("/quotes"). When a user navigates to these URLs, the corresponding components are rendered.
 
-4. Connecting Pages By setting up routes, you've connected the Home Page and Quotes Page in your application. Users can now navigate between these pages using links or programmatic navigation (e.g., clicking a button). React Router takes care of rendering the appropriate component based on the current URL.
+4. Connecting Pages By setting up routes, I've connected the Home Page and Quotes Page in your application. Users can now navigate between these pages using links or programmatic navigation (e.g., clicking a button). React Router takes care of rendering the appropriate component based on the current URL.
 
-Overall, you've leveraged the power of React to create modular, reusable components for your Home Page and Quotes Page, and you've used React Router to enable navigation between these pages in your application. This approach helps to keep your code organized, maintainable, and scalable as your application grows.
+Overall, I've leveraged the power of React to create modular, reusable components for your Home Page and Quotes Page, and I've used React Router to enable navigation between these pages in your application. This approach helps to keep your code organized, maintainable, and scalable as your application grows.
