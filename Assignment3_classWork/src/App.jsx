@@ -12,7 +12,7 @@ function App() {
     <div className="MainContainer">
        <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/quotes" element={<Quotes />} />
+          <Route path="/Quotes" element={<Quotes />} />
           
         </Routes>
        

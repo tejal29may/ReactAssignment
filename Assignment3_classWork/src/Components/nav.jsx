@@ -1,5 +1,6 @@
 import React from 'react'
 import "./nav.css"
+import { Outlet, Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -10,8 +11,10 @@ const Nav = () => {
         </div>
         <div className='menu'>
             <ul>
-                <li ><a href="./" style={{color:"rgb(59 130 246)"}}>Home</a></li>
-                <li><a href="./quotes">Quotes</a></li>
+                {/* <li ><a href="./" style={{color:"rgb(59 130 246)"}}>Home</a></li> */}
+                <li> <Link style={{color:"rgb(59 130 246)"}} to="/">Home</Link></li>
+                <li> <Link to="/quotes">Quotes</Link></li>
+                {/* <li><a href="./quotes">Quotes</a></li> */}
                 <li>Resturants</li>
                 <li>Foods</li>
                 <li>Conatct</li>
