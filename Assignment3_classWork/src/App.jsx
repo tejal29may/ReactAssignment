@@ -3,14 +3,18 @@
 import "./App.css"
 import HomePage from "./Components/HomePage"
 import Quotes from "./Components/quotes"
+import { Route,Routes } from "react-router-dom"
 
 function App() {
  
 
   return (
     <div className="MainContainer">
-       <HomePage/>
-       <Quotes/>
+       <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/quotes" element={<Quotes />} />
+          
+        </Routes>
        
     </div>
   

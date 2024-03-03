@@ -10,8 +10,8 @@ const Nav = () => {
         </div>
         <div className='menu'>
             <ul>
-                <li style={{color:"rgb(59 130 246)"}}>Home</li>
-                <li>Quote</li>
+                <li ><a href="./" style={{color:"rgb(59 130 246)"}}>Home</a></li>
+                <li><a href="./quotes">Quotes</a></li>
                 <li>Resturants</li>
                 <li>Foods</li>
                 <li>Conatct</li>

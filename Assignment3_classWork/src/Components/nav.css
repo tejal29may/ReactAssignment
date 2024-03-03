@@ -29,6 +29,12 @@
     font-weight: 500;
     cursor: pointer;
 }
+.menu li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
 li:hover{
     color: rgb(59 130 246);
 }
