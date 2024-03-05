@@ -1,0 +1,50 @@
+.main_card{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+}
+.main_card h3{
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: 700;
+}
+.fields{
+    display: flex;
+    gap: 20px;
+}
+.fields input{
+    width: 150px;
+    height: 30px;
+}
+.fields button{
+    width: 100px;
+    background-color: rgb(112, 112, 235);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.displayData{
+width: 30%;
+height: 70px;
+/* border: 2px solid green; */
+border-radius: 8px;
+margin-top: 4%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 7%;
+background-color: #38598b;
+color: white;
+font-size: 22px;
+
+}
+.displayData button{
+    width: 60px;
+    height: 30px;
+    background-color: #a2a8d3;
+    border: rgb(91, 11, 72);
+    border-radius: 9px;
+}

@@ -1,0 +1,45 @@
+.main_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+  
+}
+body{
+    background-color: #201658;
+}
+.main_container h3{
+    color: #F9E8C9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main_container div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.main_container div input{
+    height: 30px;
+}
+.main_container div button{
+    height: 35px;
+    width: 100px;
+    background-color: #98ABEE;
+    border: none;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.main_container div label{
+font-size: 22px;
+font-weight: 700;
+color: #F9E8C9;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,22 @@
+.loremcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+   padding: 20px;
+    border: 3px solid white;
+    margin-top: 4%;
+    background-color: #1D24CA;
+    border-radius: 12px;
+    /* box-shadow: 0 0 8px #E1AFD1; */
+
+    
+    
+}
+.loremcard p{
+    line-height: 1.4;
+    font-size: 18px;
+    text-align: left;
+    color: #98ABEE;
+    font-weight: 500;
+}
