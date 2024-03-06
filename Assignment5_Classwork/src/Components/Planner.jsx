@@ -4,16 +4,24 @@ import CourseCard from "./CourseCard";
 function Planner() {
   const [course, setcourse] = useState([]);
 
+
   const onclickHandler = () => {
     let courseName = document.getElementById("CourseName").value;
     let courseHours = document.getElementById("CourseHours").value;
+    
+
+   
 
     let newData = {
       name: courseName,
       hours: parseInt(courseHours),
     };
+
     const data = JSON.parse(JSON.stringify(course));
+    
     data.push(newData);
+    console.log(newData);
+    localStorage.setItem("data",newData)
     if(!courseName=="" && !courseHours==""){
       setcourse(data);
       document.getElementById("CourseName").value=""
@@ -23,7 +31,7 @@ function Planner() {
     }
   
   };
-  console.log(course);
+  // console.log(course);
 
   return (
     <div>
