@@ -1,0 +1,89 @@
+.mainCart{
+   
+    width: 60%;
+    /* height: 60px; */
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50%;
+    /* margin-bottom: 5%; */
+}
+.innerCart{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10%;
+    width: 80%;
+}
+.imgData{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 80%;
+    justify-content: center;
+}
+.imgData h5{
+    /* margin-bottom: .5rem; */
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#64748b;
+    margin-bottom: 0.25rem;
+}
+.imgData h3{
+    margin-bottom: .5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #334155;
+    font-size: clamp(.875rem,1.5vw,1.5rem);
+   
+}
+.imgData p{
+    font-size: 0.85rem;
+    color: #645cff;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+.arrow{
+    color: black;
+}
+.buttons button{
+    border: none;
+    background-color: transparent;
+}
+.totalSum{
+    width: 60%;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+}
+.clear button{
+    padding: 10px 25px;
+    border-radius: 6px;
+}
+.totalSum p{
+    font-size: clamp(.875rem,1.5vw,1.5rem);
+}
+.totalSum p:last-child{
+    background-color: #645cff;
+    padding: 10px;
+    color: white;
+    border-radius: 6px;
+}
+.clear button{
+    background-color: #C1BEFF;
+    color: #645cff;
+    font-size: 22px;
+    border: none;
+}
