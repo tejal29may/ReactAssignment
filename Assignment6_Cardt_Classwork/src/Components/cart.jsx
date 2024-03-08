@@ -97,26 +97,28 @@ const Cart = ({ products, setProducts, quantity, setQuantity }) => {
           </div>
         );
       })}
-
-      <div>
-        {" "}
-        <div className="totalSum">
-          <p>Total :</p>
-          <p>${total}</p>
-        </div>
-        <div className="clear">
-          <button
-            onClick={() => {
-              setTotal(0);
-              setProducts([]);
-              setQuantity(0);
-            
-            }}
-          >
-            Clear Cart
-          </button>
-        </div>
-      </div>
+{
+  products!=0?<div>
+  {" "}
+  <div className="totalSum">
+    <p>Total :</p>
+    <p>${total}</p>
+  </div>
+  <div className="clear">
+    <button
+      onClick={() => {
+        setTotal(0);
+        setProducts([]);
+        setQuantity(0);
+      
+      }}
+    >
+      Clear Cart
+    </button>
+  </div>
+</div>:""
+}
+      
     </>
   );
 };
