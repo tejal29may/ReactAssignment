@@ -56,3 +56,23 @@ li:hover{
     font-weight: 700;
     border: none;
 }
+
+@media screen  and (max-width:450px){
+    .menu ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        display:none;
+    }
+    .right button{
+        padding: 13px;
+        border-radius: 6px;
+        background-color: rgb(37, 99, 235);
+        color: white;
+        font-weight: 700;
+        border: none;
+        display: none;
+    }
+}

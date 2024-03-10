@@ -15,7 +15,7 @@ const Nav = () => {
                 <li> <Link style={{color:"rgb(59 130 246)"}} to="/">Home</Link></li>
                 <li> <Link to="/quotes">Quotes</Link></li>
                 {/* <li><a href="./quotes">Quotes</a></li> */}
-                <li>Resturants</li>
+                <li><Link to="/ResturantHomePage">Resturants</Link></li>
                 <li>Foods</li>
                 <li>Conatct</li>
             </ul>

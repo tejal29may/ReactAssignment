@@ -1,0 +1,25 @@
+.inputField{
+    display: flex;
+    margin: 4% auto;
+    width: 90%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.inputField input{
+    width: 200px;
+    height: 40px;
+    padding: 8px;
+    border:  1px solid gray;
+}
+.inputField div input{
+    width: 100px;
+   
+}
+.allItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-content: space-around; */
+   
+    margin-left: 3%;
+    row-gap: 1%;
+}
