@@ -1,0 +1,31 @@
+.mainDiv{
+    width:30%;
+   
+    margin: 5% auto;
+    border: 2px solid red;
+    text-align: center;
+}
+.input{
+    margin-bottom: 5%;
+}
+.input input{
+    height: 35px;
+    width: 250px;
+}
+.input button{
+    padding: 10px 20px;
+}
+
+@media screen and (max-width:480px){
+    .mainDiv{
+        width:300px;
+      
+        margin: 5% auto;
+        border: 2px solid red;
+        text-align: center;
+    }
+    .input input{
+        height: 35px;
+        width: 60%;
+    }
+}

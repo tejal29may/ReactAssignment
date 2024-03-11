@@ -3,7 +3,9 @@ import "./planner.css";
 import CourseCard from "./CourseCard";
 function Planner() {
   const [course, setcourse] = useState([]);
+ 
 
+ 
 
   const onclickHandler = () => {
     let courseName = document.getElementById("CourseName").value;
@@ -19,18 +21,27 @@ function Planner() {
 
     const data = JSON.parse(JSON.stringify(course));
     
+    // console.log(data);
     data.push(newData);
     console.log(newData);
-    localStorage.setItem("data",newData)
+    // localStorage.setItem("data",newData)
+
+   
     if(!courseName=="" && !courseHours==""){
       setcourse(data);
+      console.log("data is ",data);
+    
       document.getElementById("CourseName").value=""
       document.getElementById("CourseHours").value=""
+     
+      
     }else{
       alert("add a valid data")
     }
   
   };
+
+
   // console.log(course);
 
   return (
@@ -43,9 +54,9 @@ function Planner() {
           <button onClick={onclickHandler}>Add Data</button>
         </div>
 
-        {course.map((course, index) => (
-          <CourseCard name={course.name} hour={course.hours} key={index} />
-        ))}
+        {/* {course.map((course, index) => ( */}
+          <CourseCard name={course.name} hours={course.hours}  course={course} setcourse={setcourse}/>
+        {/* ))} */}
         {/* <CourseCard/> */}
       </div>
     </div>

@@ -1,0 +1,18 @@
+.main_Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    gap: 10%;
+}
+.main_Container .left{
+    display: flex;
+    gap: 10%;
+    font-size: 20px;
+    text-align: left;
+    width: 50%;
+}
+.main_Container .right button{
+    padding: 5px 15px;
+    font-size: 16px;
+}

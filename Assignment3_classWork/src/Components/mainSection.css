@@ -94,16 +94,22 @@ position: relative;
     background-color: white;
 }
 
-@media screen and (max-width:450px) {
+.thirdSection{
+    width: 320px;
+}
+@media screen and (max-width:480px) {
+    body{
+        overflow-x: hidden;
+    }
     .textArea{
-        width: 320px;
-        height: 70%;
+        width: 80%;
+        height: 100%;
         
         position: absolute;
-        /* margin-top: 9%;
+        margin-top: 9%;
         margin-left: 10%;
-        padding-top: 6%; */
-        margin: 3% auto;
+        padding-top: 6%;
+        
     }
     .secondSection{
         display: flex;
@@ -113,6 +119,7 @@ position: relative;
         padding: 32px;
         margin-top: 60px;
         margin-bottom: 5%;
+        width: 100%;
     }
     .secondSection .left img{
         height: 100%;
@@ -134,10 +141,15 @@ position: relative;
         .thirdSection{
             display: flex;
             flex-direction: column;
-            width: 320px;
+            width: 300px;
+            /* display: none; */
+            /* overflow-x: hidden; */
         }
         .thirdSection div{
             width: 300px;
+            /* width: 100%; */
+            margin: 2px auto;
+            /* display: none; */
         }
         .inputField{
             display: flex;
@@ -148,4 +160,27 @@ position: relative;
             justify-content: center;
             align-items: center;
         }
+        .secondSection .right div{
+           
+            width: 100%;
+            padding: 5px;
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 2%;
+            }
+            .buttons button{
+                width: 100%;
+            }
+            .main_section{
+              
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100%;
+            
+            }
     }

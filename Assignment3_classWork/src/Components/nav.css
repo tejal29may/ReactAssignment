@@ -1,7 +1,12 @@
 *{
     font-family: sans-serif;
 }
-
+.active{
+    background-color: rgb(59 130 246);
+    padding: 7px 10px;
+    border-radius: 8px;
+}
+    
 .mainDiv{
     display: flex;
     justify-content: space-around;
@@ -56,15 +61,39 @@ li:hover{
     font-weight: 700;
     border: none;
 }
+.mainDiv .smallMenu{
+   
+position: absolute;
+display: flex;
+top: 0.75rem;
+right: 0.5rem;
+flex-direction: column;
+justify-content: space-between;
+width: 2.25rem;
+height: 2rem;
+display: none;
+}
+.mainDiv .smallMenu span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
 
-@media screen  and (max-width:450px){
+
+}
+@media screen  and (max-width:480px){
     .menu ul{
         display: flex;
+        flex-direction: column;
         list-style: none;
         justify-content: center;
         align-items: center;
         gap: 30px;
-        display:none;
+        display: none;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        /* height: 50px; */
+       
     }
     .right button{
         padding: 13px;
@@ -74,5 +103,34 @@ li:hover{
         font-weight: 700;
         border: none;
         display: none;
+    }
+    .mainDiv .smallMenu {
+        display: flex;
+        background-color: rgb(17 24 39);
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+        justify-content: space-around;
+    }
+   
+    .mainDiv{
+        width: 100%;
+        height: 100%;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2% auto;
+    }
+    .menu ul.open{
+        display: block;
+    }
+    .menu ul li{
+        margin: 7%;
     }
 }
