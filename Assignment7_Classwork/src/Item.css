@@ -13,6 +13,9 @@
     width: 50%;
 }
 .main_Container .right button{
-    padding: 5px 15px;
+    padding: 7px 15px;
     font-size: 16px;
+    background-color:rgb(246, 194, 210);
+    border: none;
+    border-radius: 6px;
 }
