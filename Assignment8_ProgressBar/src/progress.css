@@ -1,0 +1,9 @@
+.progreassbar{
+    background-color: aquamarine;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+    padding: 10px 15px;
+    border-radius: 50px;
+}

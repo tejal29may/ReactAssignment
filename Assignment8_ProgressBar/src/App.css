@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #4f545a;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.progress-bar {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #d0d0d0;
+  background-color: rgb(248, 248, 248);
+
+}
+
+.progress-div {
+  position: relative;
+  border-radius: 50px;
+  background-color: green;
+  transition: width 0.5s ease-in;
+
+}
+
+#live-update {
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  z-index: 1;
+  color: black;
+  font-size: 18px;
+ 
+}
