@@ -1,0 +1,49 @@
+.main{
+    width: 40%;
+   
+    height: 400px;
+    margin: 2% auto;
+    padding-top: 10%;
+    box-shadow: 0 0 10px blue;
+    border-radius: 10px;
+    background-color:rgb(250, 203, 250);
+}
+.main .inputfields{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 3%;
+    text-align: center;
+    
+}
+.main .inputfields select{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+.main .input{
+    display: flex;
+   gap: 5%;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20%;
+}
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 5.3%;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.main .input input{
+    width: 400px;
+    margin-left: 27%;
+    margin-top: 5%;
+    height: 40px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+    
+}
