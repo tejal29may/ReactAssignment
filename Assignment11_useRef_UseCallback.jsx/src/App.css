@@ -1,0 +1,27 @@
+.main{
+    width: 30%;
+    height: 300px;
+    /* border: 2px solid red; */
+    box-shadow: 0 0 15px blue;
+    margin: 5% auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    border-radius: 15px;
+    background-color: rgb(254, 213, 220);
+}
+.inputfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.checks{
+   align-items: center;
+   margin: 2% auto;
+   margin-left: 35%;
+    
+}
+p{
+    text-align: center;
+}
