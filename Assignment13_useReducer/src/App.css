@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    width: 60%;
+    /* height: 90vh; */
+    border: 3px solid red;
+    margin: 2% auto;
+}
+.left{
+    width: 50%;
+    border: 2px solid green;
+    height: 100%;
+}
+.right{
+    width: 50%;
+    border: 2px solid rgb(81, 44, 228);
+    height: 100%;
+}
+
+.emp{
+    display: flex;
+    justify-content: space-around;
+}
